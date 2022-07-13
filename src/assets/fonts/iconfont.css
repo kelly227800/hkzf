@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "hkzf"; /* Project id 3520480 */
+  src: url('iconfont.woff2?t=1657714051355') format('woff2'),
+       url('iconfont.woff?t=1657714051355') format('woff'),
+       url('iconfont.ttf?t=1657714051355') format('truetype');
+}
+
+.hkzf {
+  font-family: "hkzf" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hkzf-sousuo:before {
+  content: "\e653";
+}
+
+.hkzf-yinhangqia-xianxing:before {
+  content: "\e936";
+}
+
+.hkzf-sousuo1-copy:before {
+  content: "\e937";
+}
+
+.hkzf-shoucang:before {
+  content: "\e600";
+}
+
+.hkzf-shijian:before {
+  content: "\e64d";
+}
+
+.hkzf-yinxingqia:before {
+  content: "\e683";
+}
+
+.hkzf-fangzi:before {
+  content: "\e663";
+}
+
+.hkzf-zixun:before {
+  content: "\e62d";
+}
+
+.hkzf-wode:before {
+  content: "\e657";
+}
+
+.hkzf-wode1:before {
+  content: "\e62e";
+}
+
+.hkzf-kefu:before {
+  content: "\e60f";
+}
+
+.hkzf-wode-copy:before {
+  content: "\e639";
+}
+
