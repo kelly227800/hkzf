@@ -3,6 +3,9 @@
     <router-view></router-view>
   </div>
 </template>
+<script>
 
-<style lang="less">
-</style>
+// console.log(location)
+export default {}
+</script>
+<style lang="less"></style>

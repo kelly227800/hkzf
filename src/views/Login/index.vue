@@ -88,6 +88,7 @@ export default {
       })
       const res = await login(this.username, this.password)
       console.log(res.data)
+      this.$store.commit('setUser', res.data.body)
       if (res.data.status === 200) {
         this.$toast({
           message: '登录成功',

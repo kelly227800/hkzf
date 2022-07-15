@@ -4384,6 +4384,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+location_storage@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/location_storage/-/location_storage-1.0.0.tgz#76faf5f0c3e213fd7da0c92f6a4898889b428bb1"
+  integrity sha512-5IRU7U12oqRkSgMfvv2YeFavbpaCG0mUckElzIUiEjxiDhiiAfX/3Y63bWTzqyirP8oI0u+tWbv1OJAROtjPvw==
+
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
