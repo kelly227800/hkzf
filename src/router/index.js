@@ -10,6 +10,7 @@ const routes = [
   },
   {
     path: '/hkzf',
+    redirect: '/hkzf/profile',
     component: () => import('@/views/Hkzf'),
     children: [
       {

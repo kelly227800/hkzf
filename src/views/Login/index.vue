@@ -6,7 +6,12 @@
       class="navbar"
       @click-left="backToPrePage"
     />
-    <van-form @submit="login" validate-trigger="onSubmit">
+    <van-form
+      @submit="login"
+      validate-trigger="onSubmit"
+      :show-error="false"
+      :validate-first="true"
+    >
       <van-field
         validate-first="true"
         size="large"
