@@ -6445,6 +6445,11 @@ vue-lazyload@1.2.3:
   resolved "https://registry.npmmirror.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
   integrity sha512-DC0ZwxanbRhx79tlA3zY5OYJkH8FYp3WBAnAJbrcuoS8eye1P73rcgAZhyxFSPUluJUTelMB+i/+VkNU/qVm7g==
 
+vue-lazyload@^3.0.0-rc.2:
+  version "3.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-3.0.0-rc.2.tgz#8a3daa598dcbb7349893d3bb39b50695049fb0d8"
+  integrity sha512-Cg7Gqb7jAoiImMPH3EMfAwJ8gZuFoBJCEtA7+TGRljrtktDtV7JAHIyKvuTgQR8DFAd7MhKi1Ys8QHdSrnGdZQ==
+
 vue-loader@^17.0.0:
   version "17.0.0"
   resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-17.0.0.tgz#2eaa80aab125b19f00faa794b5bd867b17f85acb"

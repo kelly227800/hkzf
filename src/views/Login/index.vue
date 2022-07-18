@@ -92,13 +92,14 @@ export default {
         forbidClick: true
       })
       const res = await login(this.username, this.password)
-      console.log(res.data)
+      // console.log(res.data)
       this.$store.commit('setUser', res.data.body)
       if (res.data.status === 200) {
         this.$toast({
           message: '登录成功',
           icon: 'passed',
           type: 'success',
+          duration: 1500,
           onClose: () => {
             this.$router.push('/hkzf/profile')
           }
@@ -124,6 +125,7 @@ export default {
 }
 :deep(.van-cell) {
   padding: 48px 20px;
+  border-bottom: 1px solid #dddddd;
 }
 .btn {
   font-size: 37px;
@@ -136,5 +138,8 @@ export default {
     color: #666;
     font-size: 30px;
   }
+}
+:deep(.van-field__control) {
+  font-size: 32px !important;
 }
 </style>

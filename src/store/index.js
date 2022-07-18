@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 const location = require('location_storage')
+// console.log(location)
 
 Vue.use(Vuex)
 
@@ -10,8 +11,8 @@ export default new Vuex.Store({
   },
   getters: {},
   mutations: {
-    setUser(state, payload) {
-      state.user = payload
+    setUser(state1, payload) {
+      state1.user = payload
       location.setToken(payload)
     }
   },
